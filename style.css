@@ -1,0 +1,62 @@
+/* Custom CSS for enhanced design */
+
+/* Body background */
+body {
+  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+    
+
+    
+
+  }
+  
+  /* Navigation links */
+  .navbar-nav li.nav-item a.nav-link {
+    color: #333;
+    transition: color 0.3s;
+    
+  }
+  .navbar-nav li.nav-item a.nav-link:hover {
+    color: #ff6600;
+  }
+  
+  /* Card hover effect */
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(15, 238, 201, 0.555);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  /* Contact form input */
+  .form-control {
+    border: 1px solid #deec11;
+    border-radius: 5px;
+    padding: 12px;
+    transition: border-color 0.3s;
+  }
+  .form-control:focus {
+    border-color: #ff6600;
+  }
+  
+  /* Buttons */
+  .btn-primary {
+    background-color: #ff6600;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: white;
+    transition: background-color 0.3s;
+  }
+  .btn-primary:hover {
+    background-color: #ff4400;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* Add more custom styles here */
+  
